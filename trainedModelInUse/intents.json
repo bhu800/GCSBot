@@ -1,0 +1,1779 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi there",
+                "How are you",
+                "Is anyone there?",
+                "Hey",
+                "Hola",
+                "Hello",
+                "Good day"
+            ],
+            "responses": [
+                "Hello, thanks for asking",
+                "Good to see you again",
+                "Hi there, how can I help?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Nice chatting to you, bye",
+                "Till next time"
+            ],
+            "responses": [
+                "See you!",
+                "Have a nice day",
+                "Bye! Come back again soon."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Awesome, thanks",
+                "Thanks for helping me"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "options",
+            "patterns": [
+                "How you could help me?",
+                "What you can do?",
+                "What help you provide?",
+                "How you can be helpful?",
+                "What support is offered"
+            ],
+            "responses": [
+                "options (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [
+                ""
+            ],
+            "responses": [
+                "Sorry, can't understand you",
+                "Please give me more info",
+                "Not sure I understand"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "why_IITMANDI",
+            "patterns": [
+                "Why should I join IIT Mandi?",
+                "What's it like to attend IIT Mandi?",
+                "Why IIT Mandi?"
+            ],
+            "responses": [
+                "why_IITMANDI (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "life_at_IITMandi",
+            "patterns": [
+                "what is it like to attend IIT Mandi?",
+                "How is life at IIT Mandi?",
+                "How is the hostel life at IIT Mandi?",
+                "How is the campus life at IIT Mandi?",
+                "How is collage life in iit mandi?"
+            ],
+            "responses": [
+                "life_at_IITMandi (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "IITMANDI_for_girls",
+            "patterns": [
+                "Is there any special incentive given to girl students which is not available in most of the other IITs?",
+                "Why IIT Mandi is special for girls?"
+            ],
+            "responses": [
+                "IIT Mandi especially encourages girls to join our B.Tech. programme.\n\n Special Incentives for female students in IIT Mandi :\n\n1.) All female BTech students will get a merit scholarship including full tuition fee waiver and Rs. 1,000/- per month for all 4 years of their BTech.\n\n2.) ACM, IEEE or ASME student membership will be provided by the institute to female students admitted in B.Tech.\n\nFor more information, please go to - \nhttps://students.iitmandi.ac.in/girl_students.php\nhttps://students.iitmandi.ac.in/prospective_WS.php\n\nOr, talk to our Female B.Tech Students - ####"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "campus_for_freshers",
+            "patterns": [
+                "Where will be the freshers be accommodated?",
+                "which campus for first yearites?",
+                "In which campus first year students will stay?"
+            ],
+            "responses": [
+                "At North Campus, Kamand."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "IIT_Mandi_campus",
+            "patterns": [
+                "How developed is the IIT Mandi campus at Kamand?",
+                "IIT Mandi Campus",
+                "How is the campus of IIT Mandi?",
+                "is permanent campus of iit mandi ready?"
+            ],
+            "responses": [
+                "IIT Campus is spread over North and South campuses in Kamand. North and south campuses are contiguous and interconnected with road and walkways. Phase 1 construction of the south campus is complete and north campus is expected to complete in 2021. Faculty and students are living on both south and north campuses. Most of the academic activities of B.Tech students are planned in the north campus."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "images_campus",
+            "patterns": [
+                "pictures of IIT Mandi",
+                "pictures of campus?",
+                "pictures of hostels",
+                "images",
+                "How does iit mandi look like?",
+                "share some pictures of IIT Mandi",
+                "best photographs of IIT Mandi?",
+                "pics of campus"
+            ],
+            "responses": [
+                "https://drive.google.com/drive/u/0/folders/1_HzzmvS5NJ-whrSWTR0nTeLfSacdEJB8?fbclid=IwAR1GA2ZyjMSDUWjQqn8Q0tVnjcUeKUVoHhBrGI8ql8SAyZg0yNCdvNzWulU"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "weather_at_IITMandi",
+            "patterns": [
+                "How is the weather in Kamand like?",
+                "How is the weather in IIT Mandi?",
+                "How cold is it at iit mandi?",
+                "How is the climate at iit mandi?"
+            ],
+            "responses": [
+                "Weather becomes chilly after mid-October, and in winter, there is the occasional snowfall, especially in the mountains above Kamand. But in general, we have a  long winter vacation from early December until mid-February to keep the cold at bay. The weather is usually pleasant, especially in the evenings and is ideal for nature enthusiasts who want to explore the serene surroundings of IIT Mandi."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "snow_iit_mandi",
+            "patterns": [
+                "does it snow in IIT Mandi?"
+            ],
+            "responses": [
+                "snow_iit_mandi (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "mandi_town",
+            "patterns": [
+                "What are the good places to hang out in mandi town?",
+                "How is mandi town?",
+                "What are some places to visit in mandi?"
+            ],
+            "responses": [
+                "Mandi has a fairly good market, which can provide you with almost anything. Hotels like Raj Mahal, Regent Palms, Treat are good for dinners. Dominos, Raman Bakers, Daily Dose Cafe, Sai Sweets have their share of fast food fanatics. Indira Market, built around a sunken lake, - the Mandi version of a super mall - is a delightful place for making little discoveries."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "cinema_hall",
+            "patterns": [
+                "cinema hall in mandi?",
+                "theater in mandi?"
+            ],
+            "responses": [
+                "cinema_hall (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "campus_facilities",
+            "patterns": [
+                "what facilities are there in campus?",
+                "which shops are there in campus?",
+                "is there provisional shop in or near campus?",
+                "provisional shop",
+                "stationary shop"
+            ],
+            "responses": [
+                "Apart from these you'll get following facilities in the campus:\n\n1. Stationery shop\n2. Provisional cum general store\n3. A Medical Unit\n4. Canteens"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hostel_facilities",
+            "patterns": [
+                "What facilities will be given in the hostel?",
+                "does iit mandi has good hostels?",
+                "how are the hostels of iit mandi?",
+                "What are the conditions of hostels allotted to fresher's at IIT mandi?"
+            ],
+            "responses": [
+                "Every student will be given a bed ,chair and a locker in his room.Every room have a balcony.Rooms are quite spacious.There is aqua guard at each floor.Appropriate number of washrooms are at each floor.There are 2 washing machine for washing clothes. Hostel itself have sports equipment. There is a water cooler in the mess.Wifi connectivity in the hostel is good.",
+                "Here is a list of the facilities/equipment you'll get in the hostels:\n\n1. Automatic Washing machines\n2. Laundry dryers\n3. Water purifier and cooler\n4. Iron with iron table\n5. Microwave\n6. Induction cooktop\n7. Electric kettle"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "images_hostels_rooms",
+            "patterns": [
+                "hostel rooms photos for fresher's",
+                "picture of hostel rooms"
+            ],
+            "responses": [
+                "images_hostels_rooms (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_occupancy",
+            "patterns": [
+                "How many people will stay in a hostel room?",
+                "will I get single, double or triple occupancy room in hostel?",
+                "are hostel rooms individual or shared?",
+                "does the campus have single seater or multi (how much) seater hostel"
+            ],
+            "responses": [
+                "Hostels have rooms of different sizes, single, double and triple occupancy. First year students usually get a shared room."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "change_room",
+            "patterns": [
+                "I want to change my hostel room, what should I do?  How to change hostel room?",
+                "How to swap rooms?"
+            ],
+            "responses": [
+                "Any issues related to hostel, you are to approach the hostel caretaker. He would guide you regarding the procedure."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hostel_rules",
+            "patterns": [
+                "Is there any restrictions in hostel?",
+                "hostel restrictions?",
+                "What are hostel rules?"
+            ],
+            "responses": [
+                "Though hostels are 24 hrs open, residents are to follow some rules for their own safety. Go through Appendix V hostel rules for more info."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "heaters_allowed",
+            "patterns": [
+                "are heaters allowed in rooms?"
+            ],
+            "responses": [
+                "heaters_allowed (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ug_pg_hostels_together",
+            "patterns": [
+                "Why there is no separate hostel for PG students?",
+                "Are there separate hostels for UG and PG students?"
+            ],
+            "responses": [
+                "For interaction and camaraderie, IIT Mandi follows a tradition of mixed hostels where UG and PG students are put up in the same hostel. Each program may be allotted a floor or wing so that students can stay with their classmates."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "internet_facilities",
+            "patterns": [
+                "How is the internet facility on campus?"
+            ],
+            "responses": [
+                "Internet is pretty good in the Institute and is uncapped, i.e., unlimited hi-speed net at all times."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "atm_and_bank_facilities",
+            "patterns": [
+                "What is the ATM facility and Banks in Mandi?"
+            ],
+            "responses": [
+                "atm_and_bank_facilities (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "mess_food",
+            "patterns": [
+                "How is the mess food?",
+                "Is mess food good?",
+                "is mess food really bad at iit mandi?",
+                "is mess food tasty in iit mandi?"
+            ],
+            "responses": [
+                "The mess food is nutritional and offers a huge variety from matar paneer to chole bhature to non veg food and not to mention the special dinner at every month end. In case you are unhappy about the mess food you can give feedback in the feedback register provided as well as talk to your mess secretary."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "pure_veg",
+            "patterns": [
+                "is pure veg food available in iit mandi?",
+                "Is pure vegetarian food available in IIT Mandi?",
+                "pure veg",
+                "pure vegetarian",
+                "Is there seperate veg mess in college"
+            ],
+            "responses": [
+                "pure_veg (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "jain_food",
+            "patterns": [
+                "is there a possibility of getting jain food in the mess or canteen?",
+                "jain food",
+                "is jain food available at mandi?"
+            ],
+            "responses": [
+                "jain_food (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "non_veg",
+            "patterns": [
+                "Is non veg available in the mess?"
+            ],
+            "responses": [
+                "non_veg (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "canteens_facilities",
+            "patterns": [
+                "how many canteens are there in campus?",
+                "is there canteen in campus?"
+            ],
+            "responses": [
+                "canteens_facilities (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "gym_facilities",
+            "patterns": [
+                "How is the gym at IIT Mandi does it have equipments and a trainer"
+            ],
+            "responses": [
+                "gym_facilities (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "swimming_pool_facilities",
+            "patterns": [
+                "is there a swimming pool in iit mandi."
+            ],
+            "responses": [
+                "swimming_pool_facilities (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "sports",
+            "patterns": [
+                "What are sports facilities in IIT Mandi?",
+                "How is the sports culture of IIT Mandi?"
+            ],
+            "responses": [
+                "Sports activities are coordinated by the Principal Sports Officer, Faculty Sports Advisor and PTIs. A team of highly experienced coaches and ground staff work under their direction to help you take part in the games of your choice. Participate in various tournaments like Inter-IIT, Aagaaz, Rann-Neeti and other in-house tournaments.\nAt Kamand, we have fields for Cricket, Football and Hockey, Basketball, Tennis, Squash, Badminton, TT and Volleyball courts. TT and Foosball tables are also available in most hostels. There is also Swimming pool, gym and yoga room etc."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "co_curricular",
+            "patterns": [
+                "What are the co-curricular activities and clubs at  IIT Mandi?"
+            ],
+            "responses": [
+                "co_curricular (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "unique_activities",
+            "patterns": [
+                "Unique activities"
+            ],
+            "responses": [
+                "Due to its pristine location, students can enjoy, hiking and trekking, mountain biking etc. We have active student clubs who coordinate these activities."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "tech_clubs",
+            "patterns": [
+                "what are various technical clubs in iit mandi"
+            ],
+            "responses": [
+                "tech_clubs (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "cultural_clubs",
+            "patterns": [
+                "what are various cultural clubs in iit mandi"
+            ],
+            "responses": [
+                "cultural_clubs (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "literary_society",
+            "patterns": [
+                "How is the literary society of iit mandi"
+            ],
+            "responses": [
+                "literary_society (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "drama_club",
+            "patterns": [
+                "how is the drama club of iit mandi",
+                "gustaakh saale"
+            ],
+            "responses": [
+                "drama_club (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "dance_club",
+            "patterns": [
+                "how is the dance club of iit mandi",
+                "UDC"
+            ],
+            "responses": [
+                "dance_club (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "music_club",
+            "patterns": [
+                "how is the music club of iit mandi",
+                "music club"
+            ],
+            "responses": [
+                "music_club (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "art_geeks",
+            "patterns": [
+                "Is there a club/stg related to Drawing/Sketching/Painting ?",
+                "is there any arts or painting related club or group in iit mandi",
+                "art geeks"
+            ],
+            "responses": [
+                "art_geeks (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "programming_club",
+            "patterns": [
+                "how is the programming club of iit mandi",
+                "how is the coding club of iit mandi",
+                "coding club",
+                "programming club",
+                "kamand prompt"
+            ],
+            "responses": [
+                "programming_club (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "robotronics_club",
+            "patterns": [
+                "how is robotics club of iit mandi",
+                "robotronics club"
+            ],
+            "responses": [
+                "robotronics_club (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "stac",
+            "patterns": [
+                "is there any astronomy club in iit mandi",
+                "STAC"
+            ],
+            "responses": [
+                "stac (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "yantric_club",
+            "patterns": [
+                "mechanical related club",
+                "yaantric club"
+            ],
+            "responses": [
+                "yantric_club (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "nirmaan_club",
+            "patterns": [
+                "civil related club",
+                "nirmaan club"
+            ],
+            "responses": [
+                "nirmaan_club (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "debating_club",
+            "patterns": [
+                "How is the debating culture of iit mandi",
+                "how is the debating club or society of iit mandi",
+                "debating club"
+            ],
+            "responses": [
+                "debating_club (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "writing_club",
+            "patterns": [
+                "how is the writing club of iit mandi",
+                "writing club"
+            ],
+            "responses": [
+                "writing_club (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "quizzing_club",
+            "patterns": [
+                "how is the quizzing culture of iit mandi",
+                "quizzing club"
+            ],
+            "responses": [
+                "quizzing_club (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "e_cell",
+            "patterns": [
+                "how is entrepreneur culture of iit mandi",
+                "e-cell"
+            ],
+            "responses": [
+                "e_cell (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "NSS",
+            "patterns": [
+                "What is nss",
+                "NSS"
+            ],
+            "responses": [
+                "NSS (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "NSO",
+            "patterns": [
+                "what is nso",
+                "NSO"
+            ],
+            "responses": [
+                "NSO (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "HnT",
+            "patterns": [
+                "is there any hiking and trekking club in iit mandi",
+                "HnT"
+            ],
+            "responses": [
+                "HnT (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "MTB",
+            "patterns": [
+                "mountain biking club",
+                "MTB"
+            ],
+            "responses": [
+                "MTB (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "club_audition",
+            "patterns": [
+                "I want to be a member of  _ club, what should I do?"
+            ],
+            "responses": [
+                "Any student can become a member of a club, but sometimes there may be auditions. To be a core member, you need to be active in the club."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Exodia",
+            "patterns": [
+                "How is exodia?",
+                "exodia",
+                "EXODIA"
+            ],
+            "responses": [
+                "Exodia (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ranneeti",
+            "patterns": [
+                "How is ranneeti?",
+                "ran-neeti"
+            ],
+            "responses": [
+                "ranneeti (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "first_year_courses",
+            "patterns": [
+                "What will be the courses in 1st sem of B.Tech?",
+                "What are first year B.tech courses?"
+            ],
+            "responses": [
+                "There will be common courses for all of you in the first semester. These courses include Engineering Drawing, Electrical systems around us, Computation for Engineers, Mathematics, Reverse Engineering and English I. Apart from Maths and English all courses involve Lab work, and offer a thorough understanding of the subjects, not to speak of easy grades!\nMore about courses: http://iitmandi.ac.in/academics/courses.php"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "books",
+            "patterns": [
+                "Will we be buying books or we can get them from the library?",
+                "from where do we have to buy books for courses?",
+                "what about the books?",
+                "do i have to buy books beforehand?"
+            ],
+            "responses": [
+                "In general, you can get the e-books for the materials that the teacher specifies. Also, you can get them from the library, though the library may have only limited copies. Local bookshops in Mandi or online stores are also of help, so are the seniors. Moodle web pages on our intranet site has all the course materials posted by faculty and students."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "CSE_branch",
+            "patterns": [
+                "How is cse at IIT Mandi?",
+                "How is CS of IIT Mandi in terms of placements, campus life, etc?",
+                "CSE",
+                "CS",
+                "cs",
+                "cse"
+            ],
+            "responses": [
+                "CSE_branch (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "DSE_branch",
+            "patterns": [
+                "how is iit mandi data science branch",
+                "how is iit mandi DSE branch"
+            ],
+            "responses": [
+                "https://educationtimes.com/article/65780299/70180172#gsc.tab=0"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "EE_branch",
+            "patterns": [
+                "how is iit mandi electrical branch",
+                "how is iit mandi EE branch"
+            ],
+            "responses": [
+                "EE_branch (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ME_branch",
+            "patterns": [
+                "how is iit mandi mechanical branch",
+                "how is iit mandi ME branch"
+            ],
+            "responses": [
+                "ME_branch (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "CE_branch",
+            "patterns": [
+                "How is civil engineering at IIT Mandi?"
+            ],
+            "responses": [
+                "CE_branch (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Biotech_branch",
+            "patterns": [
+                "how is iit mandi Biotechnology branch",
+                "how is iit mandi Biotech branch"
+            ],
+            "responses": [
+                "Biotech_branch (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "EP_branch",
+            "patterns": [
+                "how is iit mandi engineering physics branch",
+                "how is iit mandi EP branch"
+            ],
+            "responses": [
+                "https://www.educationtimes.com/article/65779739/70180869/IIT-Mandi-launches-integrated-dual-degree-in-Bioengineering.html#gsc.tab=0"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "curriculum_overall",
+            "patterns": [
+                "How's the curriculum at IITMandi?",
+                "what is special about curriculum of iit mandi"
+            ],
+            "responses": [
+                "curriculum_overall (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "curriculum_CSE",
+            "patterns": [
+                "curriculum for CSE in IIT Mandi?",
+                "computer science branch curriculum in iit mandi"
+            ],
+            "responses": [
+                "http://iitmandi.ac.in/academics/courses.php?fbclid=IwAR24Rt_CkIZ3NBRVHYgC7VcraWiAsI9ToldZMTv7GUs7KA8EPbop7qDJhSg"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "curriculum_DSE",
+            "patterns": [
+                "curriculum for DSE in IIT Mandi?",
+                "data science branch curriculum in iit mandi"
+            ],
+            "responses": [
+                "curriculum_DSE (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "curriculum_EE",
+            "patterns": [
+                "curriculum for EE in IIT Mandi?",
+                "electrical engineering branch curriculum in iit mandi"
+            ],
+            "responses": [
+                "curriculum_EE (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "curriculum_ME",
+            "patterns": [
+                "curriculum for ME in IIT Mandi?",
+                "mechanical engineering branch curriculum in iit mandi"
+            ],
+            "responses": [
+                "curriculum_ME (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "curriculum_CE",
+            "patterns": [
+                "curriculum for CE in IIT Mandi?",
+                "civil engineering branch curriculum in iit mandi"
+            ],
+            "responses": [
+                "curriculum_CE (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "curriculum_Biotech",
+            "patterns": [
+                "curriculum for Biotech in IIT Mandi?",
+                "biotechnology branch curriculum in iit mandi"
+            ],
+            "responses": [
+                "curriculum_Biotech (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "curriculum_EP",
+            "patterns": [
+                "curriculum for EP in IIT Mandi?",
+                "engineering physics branch curriculum in iit mandi"
+            ],
+            "responses": [
+                "curriculum_EP (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "internship_scenerio",
+            "patterns": [
+                "What is the internship scenerio of iit mandi?"
+            ],
+            "responses": [
+                "https://www.iitmandi.ac.in/pressreleases/pressrel/Press%20Release%20-%20IIT%20Mandi%20set%20for%20another%20year%20of%20Strong%20Placements%20in%202018-19.pdf?fbclid=IwAR3wEkpKx8Ay7ayMJO3uBEyeh54qEJ_KWFBC5-cHnY251zPtOGsreNl2gzs"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "placement_overall",
+            "patterns": [
+                "Placement statistics",
+                "stats of placement"
+            ],
+            "responses": [
+                "80-90% students who opt for placement get placed. Salary package comparable to other IITs. Students go for higher studies, entrepreneurship etc"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "placement_CSE",
+            "patterns": [
+                "placement statistics CSE",
+                "placement statistics Computer science , average package of computer science",
+                "average package of cse",
+                "average package of cs",
+                "average package of CSE",
+                "average package of CS",
+                "average package and lowest package for cs this year in Mandi iit"
+            ],
+            "responses": [
+                "placement_CSE (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "placement_DSE",
+            "patterns": [
+                "placement statistics DSE",
+                "placement statistics Data science and Engineering branch  , average package of data science branch",
+                "average package of dse",
+                "average package of ds",
+                "average package of DS",
+                "average package of DSE"
+            ],
+            "responses": [
+                "placement_DSE (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "placement_EE",
+            "patterns": [
+                "placement statistics EE",
+                "placement statistics electrical engineering , IS ELECTRICAL ENGINEERING visited by core companies like NTPC/ISRO/L&T etc?",
+                "Is it better to take EE branch in iit mandi regarding placement.",
+                "average package in electrical engineering",
+                "average package in EE"
+            ],
+            "responses": [
+                "placement_EE (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "placement_ME",
+            "patterns": [
+                "placement statistics ME",
+                "placement statistics Mechanical Engineering"
+            ],
+            "responses": [
+                "placement_ME (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "placement_CE",
+            "patterns": [
+                "placement statistics CE",
+                "placement statistics  Civil Engineering",
+                "What was the latest placement record of civil engineering in iit mandi?"
+            ],
+            "responses": [
+                "placement_CE (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "placement_BioTech",
+            "patterns": [
+                "placement statistics BioTech",
+                "placement statistics Biotechnology"
+            ],
+            "responses": [
+                "placement_BioTech (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "placements_EP",
+            "patterns": [
+                "placement statistics EP",
+                "placement statistics engineering physics , average package of engineering physics",
+                "average package of ep",
+                "average package of EP",
+                "average package and lowest package for EP engineering physics this year in Mandi iit"
+            ],
+            "responses": [
+                "placements_EP (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "companies_for_placements",
+            "patterns": [
+                "which companies visit IIT Mandi?",
+                "Does google visit iit mandi for placements?"
+            ],
+            "responses": [
+                "companies_for_placements (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "labs_and_research",
+            "patterns": [
+                "Labs & research facilities at IIT Mandi"
+            ],
+            "responses": [
+                "IIT Mandi has excellent teaching and research labs. Since the labs are newly developed, they have new and updated equipments."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "faculties",
+            "patterns": [
+                "How are faculties of IIT Mandi?",
+                "Are faculties of IIT Mandi good?"
+            ],
+            "responses": [
+                "faculties (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "branch_change_criterion",
+            "patterns": [
+                "How easy is the branch change in IIT Mandi?",
+                "What is the criterion for the branch change?",
+                "Is branch change easy in IIT Mandi?",
+                "what are the rules of branch change?",
+                "is it difficult to change branch?",
+                "opportunities for Branch Change at IIT Mandi from electrical to CS",
+                "how are the prospects of branch change at iit mandi."
+            ],
+            "responses": [
+                "Branch change depends solely on your CGPA (Cumulative Grade Point Average) for the first two semesters. Compared to other IITs, it is easy to get a branch change here. For a more details kindly have a look at the link below:\nhttp://iitmandi.ac.in/academics/branch_change.php"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "branch_change_cutoff_cgpa",
+            "patterns": [
+                "what was the previous year's cutoff CGPA for Branch change to CSE?"
+            ],
+            "responses": [
+                "branch_change_cutoff_cgpa (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "grading_system",
+            "patterns": [
+                "What is grading system in iit mandi?",
+                "how is cgpa calculated?"
+            ],
+            "responses": [
+                "http://iitmandi.ac.in/academics/evaluation.php"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "elective_courses",
+            "patterns": [
+                "what are elective courses?"
+            ],
+            "responses": [
+                "elective_courses (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "MCM_scholarships",
+            "patterns": [
+                "What is the procedure for getting the MCM scholarships? , MCM scholarships in IIT Mandi?"
+            ],
+            "responses": [
+                "Procedure for getting the MCM scholarships:\nIncome certificates are submitted at the time of admission as mentioned on the website and applications are collected in September. The decision is made by the Senate to award the scholarships, and later in the second semester, students are given the scholarship reimbursing their earlier tuition fees and that of the second semester.  Other details can be found here:\nhttp://iitmandi.ac.in/academics/scholarship.php"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "laptop",
+            "patterns": [
+                "Can freshers bring laptops in the first sem?",
+                "should I bring my own laptop?",
+                "Is laptop a requisite for first year?"
+            ],
+            "responses": [
+                "There is no restriction in bringing a laptop to the Institute. It would be better if you had a laptop for the course on computation with Phython-language programming, but then the PC lab is also there."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "which_laptop",
+            "patterns": [
+                "Which laptop to buy for cse student for work and casual gaming?",
+                "Which laptop should I buy?",
+                "Which laptop should we buy as far as programming is concerned?"
+            ],
+            "responses": [
+                "laptop guide -  https://docs.google.com/document/d/13e2qfGSB888S41QPtPvm90uBGhKOfcT3LU10E_m0YU0/edit?fbclid=IwAR19EkBGuWI75gHB_C-ol4iicMK62s224lBMsneCQnrTXepXhRMMm5AxHjc"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "coding_culture",
+            "patterns": [
+                "how is the coding culture of iit mandi?",
+                "coding culture",
+                "gsoc selections",
+                "GSOC",
+                "ACM-ICPC",
+                "competetive programming",
+                "coding",
+                "Is the coding culture at IIT Mandi good?"
+            ],
+            "responses": [
+                "coding_culture (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "How_to_reach_IITMANDI",
+            "patterns": [
+                "How could I reach IIT MANDI?",
+                "How to reach iit mandi?",
+                "How to reach IIT mandi from mandi bus stand ?"
+            ],
+            "responses": [
+                "How_to_reach_IITMANDI (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "map_IIT_Mandi",
+            "patterns": [
+                "map of iit mandi",
+                "map of campus"
+            ],
+            "responses": [
+                "map_IIT_Mandi (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "bus_schedule_IITMandi",
+            "patterns": [
+                "bus schedule of iit mandi buses",
+                "bus timing",
+                "timings of buses leaving from Mandi City to Kamand Campus and from Campus to Mandi City?"
+            ],
+            "responses": [
+                "bus_schedule_IITMandi (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "registration_day",
+            "patterns": [
+                "Registration Day",
+                "what are the reporting dates of iit mandi",
+                "when to report in iit mandi",
+                "Please provide a detailed schedule for reporting",
+                "When do the btech students need to report for admissions?"
+            ],
+            "responses": [
+                "http://iitmandi.ac.in/gcs/orientation_19.php"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hostel_necessities",
+            "patterns": [
+                "What facilities are provided to the freshers for the purchase of hostel necessities like mattresses, pillows, buckets etc.?",
+                "Do we need to bring hostel necessities like mattresses, pillows, buckets along with us?",
+                "Will vendors sell quilts or blankets at IIT Mandi?"
+            ],
+            "responses": [
+                "Institute arranges for the sale of hostel necessities like mattresses, pillows, pillow covers, bed sheets, locks, buckets, mugs etc. on Orientation day. Local vendors are arranged for the sale of these items inside the Institute."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hostel_allotment",
+            "patterns": [
+                "Hostel Allotment",
+                "how are room-mates assigned?",
+                "can we choose our roommates?",
+                "What is the procedure for allotment of hostel rooms?"
+            ],
+            "responses": [
+                "hostel_allotment (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "5WIP",
+            "patterns": [
+                "what is 5WIP",
+                "what is 5 wip?",
+                "what is 5wip?",
+                "what is 5 WIP?",
+                "is 5 wip hectic?",
+                "What is induction programme?"
+            ],
+            "responses": [
+                "http://iitmandi.ac.in/gcs/orientation_19.php"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "class_commencement",
+            "patterns": [
+                "Class Commencement",
+                "When will classes start?"
+            ],
+            "responses": [
+                "class_commencement (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "fees",
+            "patterns": [
+                "hostel fees",
+                "college fees",
+                "Can I submit hostel and college fees online?",
+                "when do we have to pay fees?",
+                "How the fees is to be paid ?",
+                "Fee submission date?",
+                "What are the ways of fee payment?",
+                "can we pay through sbi online?",
+                "How to pay the fees for admission?",
+                "when do we have to submit our fess?"
+            ],
+            "responses": [
+                "fees (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "list_of_required_items",
+            "patterns": [
+                "list of required items by hostlers",
+                "what should I bring with me?",
+                "What are the things / necessities we require to bring?"
+            ],
+            "responses": [
+                "https://drive.google.com/file/d/0B2_wG8uvwGstZnhBYm1kWjdhdGs/view?fbclid=IwAR06NKzfmj017ZUlNXE_J0Xhj_vqKWDVcwOxcK0KkIu_G0127g1denPgdkc"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "certificates_and_documents",
+            "patterns": [
+                "what certificates do I have to bring to iit mandi?",
+                "do i need dropper certificate?",
+                "I dont have my passing certificate",
+                "Is it Necessary to bring medical certificate?",
+                "do we have to bring income certificate?",
+                "Is passing certificate Needed of class 12",
+                "Do transfer certificate required to take admission",
+                "Do I need to submit the gap certificate if i am having no gap in my studies?",
+                "What are the documents to be brought to the campus?",
+                "what certificate I must have before leaving to institute",
+                "Is pan card is necessary",
+                "Do we need to submit a Income Certificate",
+                "required documents"
+            ],
+            "responses": [
+                "http://iitmandi.ac.in/gcs/JEE%202019%20Offer%20letter.pdf?fbclid=IwAR0eMjuxDUK6utTIzU7Xo0MLmjmJJslQnXCnrhqgRdd-CIrJktD06AvUVlc"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "soft_copy_of_documents",
+            "patterns": [
+                "soft copy of documents",
+                "is it necessary to bring soft copy of documents?"
+            ],
+            "responses": [
+                "soft_copy_of_documents (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "family_memebers_stay",
+            "patterns": [
+                "are family memeber allowed in hostel rooms?"
+            ],
+            "responses": [
+                "family_memebers_stay (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "guest_house",
+            "patterns": [
+                "How can we book guest house of iit mandi?",
+                "how to book the guest house",
+                "do we have guest house for parents in iit mandi?",
+                "Is there any guest house at the campus for parents"
+            ],
+            "responses": [
+                "guest_house (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hotels_for_stay",
+            "patterns": [
+                "hotels in mandi to stay"
+            ],
+            "responses": [
+                "http://iitmandi.ac.in/Visitor_info/index.html"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "vacations",
+            "patterns": [
+                "What is the holiday schedule of IIT Mandi?",
+                "semester breaks in IIT Mandi?",
+                "What about the mid semester vacation?",
+                "What about end sem vacations?"
+            ],
+            "responses": [
+                "A generous holiday schedule is followed in here. We have a five-day working week, and at times there are other holidays in between too. Semester breaks are from December to Mid February for winters and from mid June to early August in summers."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "festival_holiday",
+            "patterns": [
+                "do students get holidays on diwali?",
+                "diwali",
+                "for how many days, students get holiday for diwali?",
+                "can students come home on diwali?",
+                "How many holidays do we get on the occasions of Rakshabandhan, Diwali and Holi?"
+            ],
+            "responses": [
+                "festival_holiday (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "festivals_celebration",
+            "patterns": [
+                "which festivals are celebrated in IIT Mandi?"
+            ],
+            "responses": [
+                "festivals_celebration (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "network_sim",
+            "patterns": [
+                "does jio works in iit mandi?",
+                "which network works best in iit mandi?",
+                "jio",
+                "Which SIM card has the best network in Mandi",
+                "Which network is more preferred here airtel or jio ?"
+            ],
+            "responses": [
+                "network_sim (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "online_delivery",
+            "patterns": [
+                "does amazon delivers products in iit mandi",
+                "does flipkart delivers products in iit mandi?",
+                "amazon",
+                "flipkart",
+                "Does Flipkart or other online shopping sites gives its services in IIT Mandi."
+            ],
+            "responses": [
+                "online_delivery (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "education_loan",
+            "patterns": [
+                "Education Loan"
+            ],
+            "responses": [
+                "education_loan (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "cycle",
+            "patterns": [
+                "is cycle needed in campus?",
+                "cycle",
+                "Do we need to buy cycles for the campus",
+                "Is bicycle necessary in iit mandi?"
+            ],
+            "responses": [
+                "cycle (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "scientific_calculator",
+            "patterns": [
+                "Is scientific calculator compulsory?",
+                "can we buy scientific calculator from mandi?"
+            ],
+            "responses": [
+                "scientific_calculator (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "mentor",
+            "patterns": [
+                "who is my mentor?",
+                "who is mentor?"
+            ],
+            "responses": [
+                "mentor (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "problem_contact",
+            "patterns": [
+                "If I have any problem regarding any matter then to whom I have to contact?",
+                "Contact detail of IIT mandi"
+            ],
+            "responses": [
+                "There are appropriate platforms where you can get the solution of your problem like hostel incharge for hostel related problem,any emotional or other can be solved through counselling cell ,subject related problem can be solved by your subject adviser.Further ,IIt Mandi have a system in which  first year students are divided in groups of 4-5 each mentored by a second year student.So if you have any problem then you can ask him."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "seniors",
+            "patterns": [
+                "How are seniors at IIT Mandi?",
+                "are seniors helpful in IIT Mandi?"
+            ],
+            "responses": [
+                "seniors (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ragging",
+            "patterns": [
+                "Is there Ragging?  Does IIT Mandi have policies against it?"
+            ],
+            "responses": [
+                "Zero Tolerance for ragging. We have the following committees  to take care of any issues, Student Welfare and Disciplinary Committee (SWDC), Anti-Ragging Committee (ARC)."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "wild_animals",
+            "patterns": [
+                "Wild animals",
+                "Is IIT Mandi safe from wild animals?"
+            ],
+            "responses": [
+                "The campus is safe. No incident involving wild animal has been reported so far."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "famous_alumni",
+            "patterns": [
+                "who are famous alumni of IIT Mandi?",
+                "athar aamir",
+                "athar amir"
+            ],
+            "responses": [
+                "famous_alumni (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "last_year_closing_ranks",
+            "patterns": [
+                "last year cutoffs",
+                "my rank is _, will i get _ branch in iit mandi?",
+                "my rank is _, which branch will i get in iit mandi?",
+                "at what rank anyone got data science",
+                "last year closing rank of CSE",
+                "last year cloasing rank of EE",
+                "last year closing rank of ME",
+                "last year closing rank of CE",
+                "last year closing rank of biotech",
+                "last year closing rank of EP",
+                "last year closing rank of computer science branch",
+                "last year closing rank of data science branch",
+                "last year closing rank of electrical branch",
+                "last year closing rank of civil branch",
+                "last year closing rank of engineering physics branch"
+            ],
+            "responses": [
+                "last_year_closing_ranks (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "IITMandi_vs_other_new_IITs",
+            "patterns": [
+                "iit mandi vs iit ropar",
+                "which is better among new iits?",
+                "which is better - iit mandi or _?",
+                "What should I choose between mandi civil ; ropar civil ;indore civil",
+                "Iit indore civil vs iit gandhinagar civil",
+                "Which is better mech at iit mandi or at iit dharwad",
+                "IIT Patna chemical or IIT Palakkad Mechanical",
+                "Mechanical in iit mandi vs mechanical in iit Patna",
+                "iit mandi and iit jodhpur CSE"
+            ],
+            "responses": [
+                "IITMandi_vs_other_new_IITs (response is yet to be written!)"
+            ],
+            "context": [
+                ""
+            ]
+        }
+    ]
+}
