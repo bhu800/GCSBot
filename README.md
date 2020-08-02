@@ -12,6 +12,7 @@ Although GCS tries it's best to help students with their queries by it's freshma
     - [ ] try basic models
     - [ ] try open source chatbot libraries like rasa.
     - [ ] try other state of the art models
+    - [ ] try third party APIs like dialogueflow etc.
 - [ ] Deplying model using flask
 - [ ] Using socket.io for making chatbot real-time
 - [ ] adding frontend and chatbot UI
