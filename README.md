@@ -43,3 +43,4 @@ $ # Access the web app in browser: http://127.0.0.1:5000
 - [ ] Deplying model using flask
 - [ ] Using socket.io for making chatbot real-time
 - [ ] adding frontend and chatbot UI
+- [ ] store user queries and Bot's reponses on them in database/sheet, so that we can later improve our database and hence prediction model
