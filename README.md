@@ -6,6 +6,33 @@ Although GCS tries it's best to help students with their queries by it's freshma
 
 **GCSBot is a retrevial-based chatbot, which tries to solve the same problem.**
 
+## How to deploy ?
+```bash
+$ # Get the code
+$ git clone https://github.com/bhu800/GCSBot.git
+$ cd GCSBot
+$
+$ # Virtualenv modules installation (Unix based systems)
+$ virtualenv env
+$ source env/bin/activate
+$
+$ # Virtualenv modules installation (Windows based systems)
+$ # virtualenv env
+$ # .\env\Scripts\activate
+$
+$ # Install modules
+$ # SQLIte version
+$ pip3 install -r requirements.txt
+$
+$ # Start the application (development mode)
+$ python server.py # default port 5000
+$
+$ # Start the app - custom port
+$ # python manage.py runserver 0.0.0.0:<your_port>
+$
+$ # Access the web app in browser: http://127.0.0.1:5000
+```
+
 
 ## Task-List
 - [ ] Building a deep learning model for intent classification
@@ -16,3 +43,4 @@ Although GCS tries it's best to help students with their queries by it's freshma
 - [ ] Deplying model using flask
 - [ ] Using socket.io for making chatbot real-time
 - [ ] adding frontend and chatbot UI
+- [ ] store user queries and Bot's reponses on them in database/sheet, so that we can later improve our database and hence prediction model
