@@ -7,32 +7,49 @@ Although GCS tries it's best to help students with their queries by it's freshma
 **GCSBot is a retrevial-based chatbot, which tries to solve the same problem.**
 
 ## How to deploy ?
+
+Get the code
 ```bash
-$ # Get the code
 $ git clone https://github.com/bhu800/GCSBot.git
 $ cd GCSBot
-$
-$ # Virtualenv modules installation (Unix based systems)
+```
+Virtualenv modules installation (Unix based systems)
+```bash
 $ virtualenv env
 $ source env/bin/activate
-$
-$ # Virtualenv modules installation (Windows based systems)
-$ # virtualenv env
-$ # .\env\Scripts\activate
-$
-$ # Install modules
-$ # SQLIte version
-$ pip3 install -r requirements.txt
-$
-$ # Start the application (development mode)
-$ python server.py # default port 5000
-$
-$ # Start the app - custom port
-$ # python manage.py runserver 0.0.0.0:<your_port>
-$
-$ # Access the web app in browser: http://127.0.0.1:5000
+```
+Virtualenv modules installation (Windows based systems)
+```bash
+$ virtualenv env
+$ source env/bin/activate
 ```
 
+Install modules
+```bash
+$ pip3 install -r requirements.txt
+```   
+
+This ChatBot backs up the chat data in google sheets so that it can be later be used to improve prediction model of Bot.
+For this you have to make make project and get credentials to use google sheets api from https://console.cloud.google.com/.
+There are a few steps that need to be followed to start using the google sheets API:
+
+* Create a project on google cloud console
+* Activate the google drive API
+* Create credentials for the google drive API
+* Activate the google sheets API
+* Install a few modules with pip
+* Open the downloaded json file and get the client email
+* Share the desired sheet with that email
+* To Connect google sheet via python code, rename downloaded credentials file GCSBot_Google_API_Credentials.json and put it in the root directory   
+
+For more detailed setup you can follow [this tutorial](https://techwithtim.net/tutorials/google-sheets-python-api-tutorial/).
+
+ Now start the application (development mode)
+ ```bash
+ $ python server.py # default port 5000
+ ```
+ 
+ Access the web app in browser: http://127.0.0.1:5000
 
 ## Task-List
 - [ ] Building a deep learning model for intent classification
