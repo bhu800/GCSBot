@@ -41,7 +41,7 @@ def predict_class(sentence, model):
     # print("p: ", p)
     res = model.predict(np.array([p]))[0]
     # print("res: ", res)
-    ERROR_THRESHOLD = 0.25
+    # ERROR_THRESHOLD = 0.25
     # results = [[i,r] for i,r in enumerate(res) if r>ERROR_THRESHOLD]
     results = [[i,r] for i,r in enumerate(res)]
     # print("results: ", results)
@@ -59,7 +59,7 @@ def getResponse(ints, intents_json):
         if(i['tag']== tag):
             result = random.choice(i['responses'])
             break
-    return result
+    return {'response': result, 'probability': ints[0]["probability"], 'tag': tag}
 
 def chatbot_response(msg):
     ints = predict_class(msg, model)

@@ -14,6 +14,6 @@ sheet = client.open("GCSBot_Live_Data").sheet1  # Open the spreadhseet
 # sheet.append_row(["hello", "welcome"])
 # pprint(data)
 
-def appendDataInSpreadSheet(timestamp, user_data, bot_response):
-    data = [timestamp, user_data, bot_response]
+def appendDataInSpreadSheet(timestamp, user_data, classified_tag, probability):
+    data = [timestamp, user_data, classified_tag, probability]
     sheet.append_row(data)

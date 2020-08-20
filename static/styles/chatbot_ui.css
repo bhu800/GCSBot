@@ -1,3 +1,6 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;577;600;700;800&display=swap');
+
 :root {
     /* --body-bg: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); */
     --body-bg: url("../images/north_campus_ariel_view.jpg");
@@ -17,6 +20,9 @@
     margin: 0;
     padding: 0;
     box-sizing: inherit;
+    font-family: 'Inconsolata', monospace;
+    /* font-size: medium;
+    font-weight: 600; */
   }
   
   body {
@@ -127,7 +133,7 @@
     background: #eee;
   }
   .msger-inputarea * {
-    padding: 5px;
+    padding: 10px;
     border: none;
     border-radius: 3px;
     font-size: 1em;
@@ -160,4 +166,9 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
+  }
+
+  .msg-text
+  {
+    
   }
