@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GCSBot | IIT Mandi</title>
+</head>
+<body>
+
+    <section class="msger">
+        <header class="msger-header">
+          <div class="msger-header-title">
+            <i class="fas fa-comment-alt"></i> GCSBot
+          </div>
+          <div class="msger-header-options">
+            <span><i class="fas fa-cog"></i></span>
+          </div>
+        </header>
+        
+        <!-- Display Chat Section start -->
+        <main id="display-chat-section" class="msger-chat">
+            <!-- ChatBot conversation will appear here... -->
+        </main>
+        <!-- Display Chat Section end -->
+        
+        <!-- Input Message start-->
+        <div id="input-area" class="input-group mb-3">
+            <input type="text" id="user_message" class="form-control" placeholder="Type here..." autocomplete="off" aria-label="Type a message" aria-describedby="basic-addon2" autofocus>
+            <div class="input-group-append">
+                <button id="send_message" class="btn btn-warning" type="button">SEND <i class="fas fa-paper-plane"></i></button>
+            </div>
+        </div>
+        <!-- Input Message end-->
+    </section>
+
+    <h3 style='color: #ccc;font-size: 30px;'>No message yet..</h3>
+    <div class="message_holder"></div>
+    
+    <divid="input-area">
+        <input id="user_query" type="text" class="message" placeholder="Messages"/>
+        <button id="send_query" class="btn btn-warning" type="button">SEND <i class="fas fa-paper-plane"></i></button>
+    </div>
+
+    <!-- Google jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!-- SocketIO JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.7.3/socket.io.min.js"></script>
+
+    <!-- Custom chat JS -->
+    <script src="{{ url_for('static', filename='scripts/chatbot.js') }}"></script>
+</body>
+</html>

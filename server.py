@@ -5,6 +5,9 @@ import pickle
 import numpy as np
 from tensorflow.keras.models import load_model
 from flask import Flask, render_template, request, redirect
+
+from flask_socketio import SocketIO, send, emit, join_room, leave_room
+
 model = load_model('trainedModelInUse/FAQbot_model.h5') # accuracy = 93.6%
 import json
 import random
@@ -12,6 +15,7 @@ intents = json.loads(open('trainedModelInUse/intents.json').read())
 words = pickle.load(open('trainedModelInUse/words.pkl','rb'))
 classes = pickle.load(open('trainedModelInUse/classes.pkl','rb'))
 
+# intent-classification utility functions
 def clean_up_sentence(sentence):
     # tokenize the pattern - split words into array
     sentence_words = nltk.word_tokenize(sentence)
@@ -65,24 +69,49 @@ def chatbot_response(msg):
     res = getResponse(ints, intents)
     return res
 
-query = "question goes here"
-reply = "bot reply goes here!"
+# user_query = "question goes here"
+# bot_reply = "bot reply goes here!"
 
+# configure flask app
 app = Flask(__name__)
+app.secret_key = 'Illuminati'
+
+# Initialize flask-SocketIO
+socketio = SocketIO(app) 
+
+# @app.route('/')
+# def hello_world():
+#     return render_template('index.html', questionAsked=query, response=reply)
+
+# @app.route('/signup', methods = ['POST'])
+# def signup():
+# 	global query
+# 	global reply
+# 	query = request.form['question']
+# 	response = chatbot_response(query)
+# 	print(response)
+# 	reply = response
+# 	return redirect('/')
 
 @app.route('/')
-def hello_world():
-    return render_template('index.html', questionAsked=query, response=reply)
+def chatBot():
 
-@app.route('/signup', methods = ['POST'])
-def signup():
-	global query
-	global reply
-	query = request.form['question']
-	response = chatbot_response(query)
-	print(response)
-	reply = response
-	return redirect('/')
+    return render_template('chatbot.html') 
+
+def messageReceived(methods=['GET', 'POST']):
+    print('message was received!!!')
+
+@socketio.on('query')
+def handle_query(user_query):
+    """Broadcast user_query and bot_response and """
+    user_query = user_query["msg"]
+    print(user_query)
+    print("user: ", user_query)
+    bot_response =  chatbot_response(user_query)
+    print("Bot: ", bot_response)
+    emit('response', {"user_query": user_query, "bot_response": bot_response}, callback=messageReceived)
+
+
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    socketio.run(app, debug=True)
