@@ -36,11 +36,11 @@ $ # Access the web app in browser: http://127.0.0.1:5000
 
 ## Task-List
 - [ ] Building a deep learning model for intent classification
-    - [ ] try basic models
+    - [x] try basic models
     - [ ] try open source chatbot libraries like rasa.
     - [ ] try other state of the art models
     - [ ] try third party APIs like dialogueflow etc.
-- [ ] Deplying model using flask
-- [ ] Using socket.io for making chatbot real-time
-- [ ] adding frontend and chatbot UI
-- [ ] store user queries and Bot's reponses on them in database/sheet, so that we can later improve our database and hence prediction model
+- [x] Deplying model using flask
+- [x] Using socket.io for making chatbot real-time
+- [x] adding frontend and chatbot UI
+- [x] store user queries and Bot's reponses on them in database/sheet, so that we can later improve our database and hence prediction model
