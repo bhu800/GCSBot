@@ -6,6 +6,8 @@ Although GCS tries it's best to help students with their queries by it's freshma
 
 **GCSBot is a retrevial-based chatbot, which tries to solve the same problem.**
 
+![working_gif](https://github.com/bhu800/GCSBot/blob/master/screenshots_and_gifs/gcsbot_video.gif)
+
 ## How to deploy ?
 
 Get the code
