@@ -40,7 +40,8 @@ There are a few steps that need to be followed to start using the google sheets 
 * Install a few modules with pip
 * Open the downloaded json file and get the client email
 * Share the desired sheet with that email
-* To Connect google sheet via python code, rename downloaded credentials file GCSBot_Google_API_Credentials.json and put it in the root directory
+* To Connect google sheet via python code, rename downloaded credentials file GCSBot_Google_API_Credentials.json and put it in the root directory   
+
 For more detailed setup you can follow [this tutorial](https://techwithtim.net/tutorials/google-sheets-python-api-tutorial/).
 
  Now start the application (development mode)
