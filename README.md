@@ -29,7 +29,7 @@ Install modules
 $ pip3 install -r requirements.txt
 ```   
 
-This Chat back up chat data in google sheets so that it can be later be used to improve prediction model of Bot.
+This ChatBot backs up the chat data in google sheets so that it can be later be used to improve prediction model of Bot.
 For this you have to make make project and get credentials to use google sheets api from https://console.cloud.google.com/.
 There are a few steps that need to be followed to start using the google sheets API:
 
