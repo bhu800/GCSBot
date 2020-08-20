@@ -30,5 +30,15 @@ $(document).ready(function(){
         }
     });
 
-    
+    function printUserMsg(msg) {
+        var message = $("<div class=\"msg-text\"></div>").text(msg.msg)
+        var username_span = $("<div class=\"msg-info-name\"></div>").text("You")
+        var timestamp_span = $("<div class=\"msg-info-time\"></div>").text(msg.timestamp)
+        var message_info = $("<div class=\"msg-info\"></div>").append(username_span, timestamp_span);
+        var message_bubble = $("<div class=\"msg-bubble\"></div>").append(message_info, message);
+        if (curr_user == 1) var message_div = $("<div class=\"msg right-msg\"></div>").append(message_bubble);
+        else var message_div = $("<div class=\"msg left-msg\"></div>").append(message_bubble);
+        $('#display-chat-section').append(message_div);
+        // console.log(current_user);
+    }
 })

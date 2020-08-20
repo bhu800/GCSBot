@@ -8,6 +8,8 @@ from flask import Flask, render_template, request, redirect
 
 from flask_socketio import SocketIO, send, emit, join_room, leave_room
 
+from time import localtime, strftime
+
 model = load_model('trainedModelInUse/FAQbot_model.h5') # accuracy = 93.6%
 import json
 import random
@@ -104,8 +106,8 @@ def messageReceived(methods=['GET', 'POST']):
 @socketio.on('query')
 def handle_query(user_query):
     """Broadcast user_query and bot_response and """
+
     user_query = user_query["msg"]
-    print(user_query)
     print("user: ", user_query)
     bot_response =  chatbot_response(user_query)
     print("Bot: ", bot_response)

@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GCSBot | IIT Mandi</title>
+
+    <!-- Custom CSS for Chat Page -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/chatbot_ui.css')}}">
 </head>
 <body>
 
@@ -25,28 +28,29 @@
         <!-- Display Chat Section end -->
         
         <!-- Input Message start-->
-        <div id="input-area" class="input-group mb-3">
-            <input type="text" id="user_message" class="form-control" placeholder="Type here..." autocomplete="off" aria-label="Type a message" aria-describedby="basic-addon2" autofocus>
+        <div id="input-area" class="msger-inputarea">
+            <input type="text" id="user_query" class="msger-input" placeholder="Type your query here..." autocomplete="off" aria-label="Type your query..." aria-describedby="basic-addon2" autofocus>
             <div class="input-group-append">
-                <button id="send_message" class="btn btn-warning" type="button">SEND <i class="fas fa-paper-plane"></i></button>
+                <button id="send_query" class="btn btn-warning msger-send-btn" type="button">SEND</button>
             </div>
         </div>
         <!-- Input Message end-->
     </section>
-
-    <h3 style='color: #ccc;font-size: 30px;'>No message yet..</h3>
-    <div class="message_holder"></div>
-    
-    <divid="input-area">
-        <input id="user_query" type="text" class="message" placeholder="Messages"/>
-        <button id="send_query" class="btn btn-warning" type="button">SEND <i class="fas fa-paper-plane"></i></button>
-    </div>
 
     <!-- Google jQuery CDN -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
     <!-- SocketIO JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.7.3/socket.io.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+    <script src='https://use.fontawesome.com/releases/v5.0.13/js/all.js'></script>
 
     <!-- Custom chat JS -->
     <script src="{{ url_for('static', filename='scripts/chatbot.js') }}"></script>
