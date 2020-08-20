@@ -10,6 +10,8 @@ $(document).ready(function(){
     // show message on receiving message in 'message' event bucket
     socket.on('response',function(data){
         console.log(data);
+        printUserMsg(data);
+        printBotMsg(data);
     });
 
     // send message on pressing submit button
@@ -31,14 +33,27 @@ $(document).ready(function(){
     });
 
     function printUserMsg(msg) {
-        var message = $("<div class=\"msg-text\"></div>").text(msg.msg)
+        var message = $("<div class=\"msg-text\"></div>").text(msg.user_query)
+        var user_icon = $('<div class="msg-img" style="background-image: url(https://image.flaticon.com/icons/svg/145/145867.svg)"></div>')
         var username_span = $("<div class=\"msg-info-name\"></div>").text("You")
         var timestamp_span = $("<div class=\"msg-info-time\"></div>").text(msg.timestamp)
         var message_info = $("<div class=\"msg-info\"></div>").append(username_span, timestamp_span);
         var message_bubble = $("<div class=\"msg-bubble\"></div>").append(message_info, message);
-        if (curr_user == 1) var message_div = $("<div class=\"msg right-msg\"></div>").append(message_bubble);
-        else var message_div = $("<div class=\"msg left-msg\"></div>").append(message_bubble);
+        var message_div = $("<div class=\"msg right-msg\"></div>").append(user_icon, message_bubble);
         $('#display-chat-section').append(message_div);
-        // console.log(current_user);
+        // console.log(message_div);
+    }
+
+    function printBotMsg(msg) {
+        var message = $("<div class=\"msg-text\"></div>").text(msg.bot_response)
+        var bot_icon = $('<div class="msg-img" style="background-image: url(https://image.flaticon.com/icons/svg/327/327779.svg)"></div>')
+        var username_span = $("<div class=\"msg-info-name\"></div>").text("GCSBot")
+        var timestamp_span = $("<div class=\"msg-info-time\"></div>").text(msg.timestamp)
+        var message_info = $("<div class=\"msg-info\"></div>").append(username_span, timestamp_span);
+        var message_bubble = $("<div class=\"msg-bubble\"></div>").append(message_info, message);
+        var message_div = $("<div class=\"msg left-msg\"></div>").append(bot_icon, message_bubble);
+        $('#display-chat-section').append(message_div);
+        // console.log(message_div);
     }
 })
+

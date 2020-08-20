@@ -111,7 +111,8 @@ def handle_query(user_query):
     print("user: ", user_query)
     bot_response =  chatbot_response(user_query)
     print("Bot: ", bot_response)
-    emit('response', {"user_query": user_query, "bot_response": bot_response}, callback=messageReceived)
+    timestamp = strftime('%I:%M%p', localtime())
+    emit('response', {"user_query": user_query, "bot_response": bot_response, "timestamp": timestamp}, callback=messageReceived)
 
 
 
