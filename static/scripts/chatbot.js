@@ -8,10 +8,12 @@ $(document).ready(function(){
     });
 
     // show message on receiving message in 'message' event bucket
-    socket.on('response',function(data){
-        console.log(data);
+    socket.on('response',function(data){        
         printUserMsg(data);
         printBotMsg(data);
+
+        // scroll chat window automatically
+        scrollDownChatWindow();
     });
 
     // send message on pressing submit button
@@ -54,6 +56,12 @@ $(document).ready(function(){
         var message_div = $("<div class=\"msg left-msg\"></div>").append(bot_icon, message_bubble);
         $('#display-chat-section').append(message_div);
         // console.log(message_div);
+    }
+
+    // auto-scroll function
+    function scrollDownChatWindow() {
+        const chatWindow = document.querySelector("#display-chat-section");
+        chatWindow.scrollTop = chatWindow.scrollHeight;
     }
 })
 
