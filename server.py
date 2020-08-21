@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request, redirect
 from flask_socketio import SocketIO, send, emit, join_room, leave_room
 from time import localtime, strftime
+import os
 
 # Custom Modules
 
@@ -11,7 +12,7 @@ from intentClassifier import chatbot_response
 
 # configure flask app
 app = Flask(__name__)
-app.secret_key = 'Illuminati'
+app.secret_key = os.environ.get('SECRET') # flask app secret key from heroku
 
 # Initialize flask-SocketIO
 socketio = SocketIO(app) 
@@ -41,4 +42,5 @@ def handle_query(user_query):
     appendDataInSpreadSheet(timestamp_long, user_query, tag, probability)
 
 if __name__ == "__main__":
-    socketio.run(app, debug=True)
+    # socketio.run(app, debug=True)
+    app.run() # using gunicorn server

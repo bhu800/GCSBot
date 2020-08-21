@@ -1,5 +1,6 @@
 venv/
+venv2/
 __pycache__/
 flask_session/
 .vscode/
-GCSBot_Google_API_Credentials.json
+# GCSBot_Google_API_Credentials.json
