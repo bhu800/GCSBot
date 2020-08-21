@@ -63,3 +63,4 @@ For more detailed setup you can follow [this tutorial](https://techwithtim.net/t
 - [x] Using socket.io for making chatbot real-time
 - [x] adding frontend and chatbot UI
 - [x] store user queries and Bot's reponses on them in database/sheet, so that we can later improve our database and hence prediction model
+- [ ] Make chatBot contextual
