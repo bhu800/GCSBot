@@ -12,7 +12,8 @@ from intentClassifier import chatbot_response
 
 # configure flask app
 app = Flask(__name__)
-app.secret_key = os.environ.get('SECRET') # flask app secret key from heroku
+# app.secret_key = os.environ.get('SECRET') # flask app secret key from heroku
+app.secret_key = "Illuminati"
 
 # Initialize flask-SocketIO
 socketio = SocketIO(app) 
@@ -42,5 +43,5 @@ def handle_query(user_query):
     appendDataInSpreadSheet(timestamp_long, user_query, tag, probability)
 
 if __name__ == "__main__":
-    # socketio.run(app, debug=True)
-    app.run() # using gunicorn server
+    socketio.run(app, debug=True)
+    # app.run() # using gunicorn server
