@@ -64,3 +64,4 @@ For more detailed setup you can follow [this tutorial](https://techwithtim.net/t
 - [x] adding frontend and chatbot UI
 - [x] store user queries and Bot's reponses on them in database/sheet, so that we can later improve our database and hence prediction model
 - [ ] Make chatBot contextual
+- [ ] Making the Bot robust - a.) to spelling mistakes b.) to questions not in database
